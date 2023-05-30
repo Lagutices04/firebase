@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyDjgOo_fNAH5NS6g0eN7Svqpg0RYgXzmSU",
+            authDomain: "cloud-nosql-c009c.firebaseapp.com",
+            databaseURL: "https://cloud-nosql-c009c-default-rtdb.firebaseio.com",
+            projectId: "cloud-nosql-c009c",
+            storageBucket: "cloud-nosql-c009c.appspot.com",
+            messagingSenderId: "892888745499",
+            appId: "1:892888745499:web:81270aa04fe9a528de9abe"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-auth.js"></script>
+</head>
+<body>
+    <hr>
+    <h4>registro</h4>
+    <input type="email" id="imputEmal" placeholder="ingresa tu correo electronico" br>
+    <input type="password" id="imputPassword" placeholder="ingresa tu contraseña" br>
+    <button onclick="register()">ingresar</button>
+    <hr>
+   
+    <script src="index.js"></script>
+</body>
+</html>

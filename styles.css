@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+*{
+    font-family: 'poppins','sans-serif';
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100% ; 
+    padding:20px 100px ;
+    background: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:99; 
+}
+.logo{
+    font-size: zen;
+    color: antiquewhite;
+    user-select: none;
+
+}
+.navigation a{
+    position: relative;
+}
